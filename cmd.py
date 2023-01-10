@@ -9,14 +9,14 @@ class cmd:
 
         TODO : Add parameters
         """
-	self.NAME=""
-    	self.SHORT_NAME=""
-    	self.DESCRIPTION=""
-    	self.EXAMPLES=[]
-    	self.VALID_OPTIONS={}
-    	self.VALID_OPTION_NAMES=[]
-    	self.VALID_OPTION_SHORT_NAMES=[]
-    	self.HANDLER=None
+        self.NAME=""
+        self.SHORT_NAME=""
+        self.DESCRIPTION=""
+        self.EXAMPLES=[]
+        self.VALID_OPTIONS={}
+        self.VALID_OPTION_NAMES=[]
+        self.VALID_OPTION_SHORT_NAMES=[]
+        self.HANDLER=None
         return None
     
     def setName(self, name: str):
