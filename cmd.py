@@ -2,14 +2,6 @@ class cmd:
     """
     Class to represent a command
     """
-    NAME=""
-    SHORT_NAME=""
-    DESCRIPTION=""
-    EXAMPLES=[]
-    VALID_OPTIONS={}
-    VALID_OPTION_NAMES=[]
-    VALID_OPTION_SHORT_NAMES=[]
-    HANDLER=None
 
     def __init__(self):
         """
@@ -17,6 +9,14 @@ class cmd:
 
         TODO : Add parameters
         """
+	self.NAME=""
+    	self.SHORT_NAME=""
+    	self.DESCRIPTION=""
+    	self.EXAMPLES=[]
+    	self.VALID_OPTIONS={}
+    	self.VALID_OPTION_NAMES=[]
+    	self.VALID_OPTION_SHORT_NAMES=[]
+    	self.HANDLER=None
         return None
     
     def setName(self, name: str):
